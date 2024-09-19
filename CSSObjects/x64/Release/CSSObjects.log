@@ -1,0 +1,44 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  StdAfx.cpp
+  acrxEntryPoint.cpp
+  CSSDocData.cpp
+  CSSObjects.cpp
+  CSSCube.cpp
+  DocData.cpp
+  beamWithHinges.cpp
+  CSSBrickElement.cpp
+  CSSBeamElement.cpp
+  CSSCorotTruss.cpp
+  CSSDispBeamColumn.cpp
+  CSSElasticBeamColumn.cpp
+  CSSElement.cpp
+  CSSForceBeamColumn.cpp
+  CSSJoint2dElement.cpp
+  CSSLineElement.cpp
+  CSSModElasticBeamColumn.cpp
+  CSSShellElement.cpp
+  CSSTruss.cpp
+  CSSTwoNodeLink.cpp
+  CSSZeroLength.cpp
+  Compiling...
+  CSSElasticTimoshenkoBeam.cpp
+  Matrix.cpp
+  Vector.cpp
+  CSSNode.cpp
+  ObjUtils.cpp
+H:\OpenSees\CADSees\CSSObjects\ObjUtils\ObjUtils.cpp(12,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+H:\OpenSees\CADSees\CSSObjects\ObjUtils\ObjUtils.cpp(334,14): warning C4101: 'es': unreferenced local variable
+H:\OpenSees\CADSees\CSSObjects\ObjUtils\ObjUtils.cpp(552,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CSSPile.cpp
+  CSSNodeRecorder.cpp
+  CSSRecorder.cpp
+H:\OpenSees\CADSees\CSSObjects\Recorders\CSSRecorder.cpp(135,16): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+H:\OpenSees\CADSees\CSSObjects\Recorders\CSSRecorder.cpp(156,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+H:\OpenSees\CADSees\CSSObjects\Recorders\CSSRecorder.cpp(165,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(H:\OpenSees\CADSees\CSSObjects\x64\Release\CSSObjects.dbx) does not match the Linker's OutputFile property value (C:\Users\Alireza\AppData\Roaming\OpenSees House\OpenSeesH\CADSees\CSSObjects.dbx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library x64/Release\CSSObjects.lib and object x64/Release\CSSObjects.exp
+  Generating code
+  Finished generating code
+rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'H:\OpenSees\CADSees\CSSObjects\x64\Release\rxapi.pdb'; linking object as if no debug info
+  CSSObjects.vcxproj -> H:\OpenSees\CADSees\CSSObjects\x64\Release\CSSObjects.dbx
